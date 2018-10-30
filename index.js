@@ -26,7 +26,7 @@ const app = async () => {
 
   */
 
-  axios.get(`http://localhost:3000/assets/chart-data`)
+  axios.get(`https://tradechart-api.herokuapp.com/assets/chart-data`)
     .then(response => {
       
       let plainData = response.data
